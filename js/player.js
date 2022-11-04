@@ -186,7 +186,6 @@ let PlayerMoves = {
         GameManager.endFight()
     },
     nextLevel: function (player) {
-        console.log(player.level, ' level')
         return Math.floor(0.05 * (player.level ^ 3) + 0.8 * (player.level ^ 2) + 2 * player.level)
     },
     readyToLevelUp: function () {
