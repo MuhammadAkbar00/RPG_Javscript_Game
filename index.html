@@ -18,10 +18,8 @@
                     AccountManager.logout();
                 }
                 if(user.player){
-                    console.log("running")
                     GameManager.setGameStart();
                 }else{
-                    console.log("else running")
                     GameManager.characterSelect();
                 }
             }, false);
