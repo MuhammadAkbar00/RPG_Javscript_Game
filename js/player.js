@@ -36,7 +36,7 @@ let PlayerMoves = {
             // Critical hit 
             let criticalHitChance = Math.random();
             console.log("Crit chance " + criticalHitChance);
-            if (criticalHitChance > 0.75) {
+            if (criticalHitChance > 0.85) {
                 console.log("crit");
                 isCrit = true;
                 calcOutputDamage = calcOutputDamage * 2;
